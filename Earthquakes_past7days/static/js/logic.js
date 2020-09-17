@@ -129,6 +129,14 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     ];
 
 
+// magnitudes.forEach(function(mag, index) {
+//   div.innerHTML +=
+//   "<i style='background: " + colors[index] + "'></i> " +
+//     mag + (magnitudes[index + 1] ? "&ndash;" + magnitudes[index + 1 ]+ "<br>" : "+");
+// })
+//   return div;
+
+
   // Looping through our intervals to generate a label with a colored square for each interval.
   for (var i = 0; i < magnitudes.length; i++) {
     console.log(colors[i]);
